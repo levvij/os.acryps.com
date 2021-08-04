@@ -47,16 +47,15 @@ const config = {
                 type: "rrsp",
                 order: 1,
                 name: "Remote",
-                root: "fs/",
+                root: "/",
                 deleteList: "rrsp_dl"
             }
         ],
-        root: "fs/",
-        ray: "fs/ray.php",
+        root: "/",
+        ray: "/ray",
         prefix: "wray_fsx_",
         disk: "c/",
         icons: {
-
             base: "c/windows/system32/icons/",
             directory: "shell32/0x0004",
             directoryOpen: "shell32/0x0005",
@@ -114,7 +113,6 @@ const config = {
             mp3: "MP3 Audio",
             mp4: "Video",
             mpeg: "Video",
-            mega: "Agy",
             png: "Image",
             pdf: "PDF-Document",
             rtf: "Rich Text Document",

@@ -37,7 +37,7 @@ workspace>p {
 
 @font-face {
     font-family: IBMVGA8;
-    src: url('fs/c/windows/fonts/ibm-vga8.ttf');
+    src: url('/c/windows/fonts/ibm-vga8.ttf');
 }
 
 @keyframes flash {
