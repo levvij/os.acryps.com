@@ -1,8 +1,8 @@
 // main config
 const config = {
     copyright: {
-        text: "Copyright © 2019 Levi Hechenberger. All rights reserved.",
-        notice: "This software is licensed under Creative Commons BY NC. You are free to copy, redistribute, remix, transform, and build upon the material. https://creativecommons.org/licenses/by-nc/4.0/. Design Copyright © 1981-1999 Microsoft Corp."
+        text: "Copyright © 2021 inter allied crypsis (ACRYPS), forked from w2000 by Levi Hechenberger. All rights reserved.",
+        notice: "This software is licensed under Creative Commons BY NC. You are free to copy, redistribute, remix, transform, and build upon the material. https://creativecommons.org/licenses/by-nc/4.0/. Design and Assets Copyright © 1981-1999 Microsoft Corp."
     },
     dll: {
         paths: [

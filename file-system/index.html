@@ -69,7 +69,10 @@
 		errorMessage.remove();
 		
 		// load dlls
-		globalConsole.writeln("Starting Windows v" + config.version + (config.beta ? "b" : "r") + "...\n");
+		globalConsole.writeln(`Starting w2k v${config.version}...\n`);
+		globalConsole.writeln(`WARNING: This version of w2k does not contain persistant storage or nogap interop.\nYour files may be deleted at any time!\n\n`);
+
+		await new Promise(done => setTimeout(done, 5000));
 		
 		if (!config.beta) {
 			globalConsole.lock();

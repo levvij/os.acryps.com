@@ -62,7 +62,7 @@ async function NoGap() {
 						lastReceive = new Date();
 
 						if (data.tag == "connect") {
-							process.log.mark("connected", "node: " + data.node + ", active clients: " + data.clients);
+							process.log.mark("connected", "node: " + data.node + ", active clients: " + data.clients.length);
 							
 							while (online.length) {
 								online.pop();
